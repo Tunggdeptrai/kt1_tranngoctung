@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<heal>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-spacing: 2px;
+}
+</style>
+<style>Bài tập</style>
+</heal>
+<body>
+<table style="width:50%">
+ <tr style="height:50px">
+    <th colspan="4">Đăng Ký</th>
+    <form action="/submit" method="POST" enctype="multipart/form-data">
+ <tr>
+    <td>Họ tên</td>
+        <td><input type="text" name="Họ tên" required></td>
+    </tr>
+  </tr>
+ <tr>
+    <td>Username</td>
+        <td><input type="text" name="Username" required></td>
+  </tr>
+ <tr>
+        <td>Mật khẩu</td>
+    <td><input type="password" name="Mật khẩu" required></td>
+    </tr>
+  </tr>
+ <tr>
+    <td>Nhập lại Mật khẩu</td>
+        <td><input type="text" name="Nhập lại mật khẩu" required></td>
+  </tr>
+ <tr>
+    <td>Giới Tính</td>
+    <td><input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label>
+        <input type="radio" id="other" name="gender" value="Khác">
+        <label for="other">Khác</label></td></td>
+    </tr>
+ <tr>
+    <td>Ngày sinh</td>
+    <td><input type="date" name="birthdate" required></td>
+  </tr>
+ <tr>
+    <td>Địa chỉ</td>
+        <td><input type="text" name="Địa chỉ" required></td>
+    </tr>
+ <tr>
+    <td>Avatar</td>
+     <td><input type="file" name="Avatar" accept="image/*" required></td>
+  </tr>
+  <tr>
+    <td>Sở thích</td>
+    <td>
+        <input type="checkbox" name="hobbies" value="Xem phim"> Xem phim
+          <input type="checkbox" name="hobbies" value="Trò chơi"> Trò chơi
+           <input type="checkbox" name="hobbies" value="Thể thao"> Thể thao
+            </td>
+  </tr>
+  <tr><td colspan="2" style="text-align: center;">
+            <input type="submit" value="Đăng Ký">
+             <input type="reset" value="Reset">
+         </td>
+  </tr>
+</table>
+<from>
+
+</body>
+</html>
